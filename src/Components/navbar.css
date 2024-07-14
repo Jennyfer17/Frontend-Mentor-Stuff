@@ -1,0 +1,34 @@
+
+.nav-bar {
+    background-image: url('../assets/bg-sidebar-mobile.svg');
+    margin: 0;
+    width: 100%;
+    height: 10em;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+.steps {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    column-gap: 10px;
+}
+.step {
+    border-radius: 50%;
+    background-color: transparent;
+    border: solid thin  hsl(0, 0%, 100%);
+    width: 2.5em;
+    height: 2.5em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: hsl(0, 0%, 100%);
+    cursor: pointer;
+}

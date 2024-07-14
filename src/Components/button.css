@@ -1,0 +1,33 @@
+
+.button {
+    background-color: white;
+    width: 100%;
+    height: 5em;
+    position: absolute;
+    bottom: 0;    
+}
+
+.button > div {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+   padding: 20px;
+}
+
+button {
+    cursor: pointer;
+}
+.next {
+    background-color: hsl(213, 96%, 18%);
+    width: 8em;
+    height: 2.5em;
+    border-radius: 5px;
+    color: white;
+}
+.go-back {
+    background-color: transparent;
+    border: none;
+    color: hsl(231, 11%, 63%);
+}
+
+

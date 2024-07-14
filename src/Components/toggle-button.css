@@ -1,0 +1,29 @@
+
+.toggle-button{
+    width: 30px;
+    height: 15px;
+    border-radius: 99px;
+    background-color: hsl(213, 96%, 18%);
+    border: 1px solid hsl(213, 96%, 18%);
+    position: relative;
+}
+.circle {
+    width: 10px;
+    height: 10px;
+    background-color: white;
+    position: absolute;
+    border-radius: 100%;
+    color: transparent;
+    top: calc(100% - 12px);    
+}
+
+#circle--left {
+    left: 3px;
+}
+#circle--right {
+    right: 3px;
+}
+
+input[type="radio"] {
+    appearance: none;
+}
